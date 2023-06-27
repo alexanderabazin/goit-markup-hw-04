@@ -1,0 +1,403 @@
+/*----------------------------------------FOR-ALL---------------------------------------------------------------*/
+:root {
+  --background-color: var(#ffffff);
+  --text-color: var(#434455);
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul,
+ol {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.body {
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+.list {
+  list-style: none; /*чтобы скинуть маркер*/
+}
+.link {
+  text-decoration: none; /*чтобы скинуть подчеркивание*/
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+.img {
+  display: block;
+}
+
+/*----------------------------------------HEADER(PORTFOLIO+INDEX)-----------------------------------------------*/
+.header-studio {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-studio-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.header-logo-two {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.header-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  }
+.header-adress {
+  font-style: normal;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header-contacts-list {
+  display: flex;
+  gap: 40px;
+  padding-left: 0;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-link:hover {
+  color: #404bbf;
+}
+.header-link:focus {
+  color: #404bbf;
+}
+.header-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-contacts:hover {
+  color: #404bbf;
+}
+.header-contacts:focus {
+  color: #404bbf;
+}
+/*-----------------------------------------MAIN(PORTFOLIO+INDEX)------------------------------------------------*/
+.ul{
+  padding: 0;
+}
+.div-header {
+  display: flex;
+}
+.div-info {
+  padding: 32px 16px;
+}
+.cards{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.second-section-title {
+  
+}
+.functions-list {
+  display: flex;
+  gap: 24px;
+}
+.functions-item {
+  width: calc((100% - 72px) / 4);
+}
+.functions-names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.functions-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.specific-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.specific-list {
+  display: flex;
+  gap: 24px;
+}
+.specific-item {
+  width: calc((100% - 48px) / 3);
+}
+.teamlist {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.teamlist-story {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+}
+.teamlist-item {
+  background-color: #ffffff;
+  
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.teamlist-specific {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.teamlist-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.hero-section-portfolio {
+  background: linear-gradient(0deg, #e7e9fc, #e7e9fc),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  font-family: "Roboto", sans-serif;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.img-portf-list-link {
+}
+.hero-section-portfolio-title {
+}
+.hero-section-portfolio-list {
+  display: flex; 
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+
+}
+.img-list-portfolio {
+  display: flex ;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.img-items-list-portfolio {
+  width: calc((100% - 48px) / 3); 
+}
+.title-img-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.portfolio-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.hero-section-portfolio-btn-list {
+}
+/*-----------------------------------------FOOTER(PORTFOLIO+INDEX)----------------------------------------------*/
+.div-footer {
+}
+.footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-logo-two {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+/*------------------------------------------------BUTTON-INDEX--------------------------------------------------*/
+.header-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.header-button:hover {
+  background-color: #404bbf;
+}
+.header-button:focus {
+  background-color: #404bbf;
+}
+
+/*---------------------------------------------BUTTON-PORTFOLIO-------------------------------------------------*/
+.hero-section-portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+padding-top: 12px;
+ padding-bottom: 12px;
+ padding-left: 24px;
+  padding-right: 24px;)
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+  border: 1px solid #e7e9fc ;
+  border-radius: 4px;
+}
+.hero-section-portfolio-btn:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+.hero-section-portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+/*------------------------------------------------SECTION-INDEX-------------------------------------------------*/
+.hero-section {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.second-section {
+  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.specific-section {
+  background-color: #ffffff;
+  padding-bottom: 120px;
+}
+.main-section {
+  background-color: #ffffff;
+}
+.team-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+/*-----------------------------------------------SECTION-PORTFOLIO----------------------------------------------*/
+.web-concept {
+  background-color: #ffffff;
+  padding-top: 96px;
+   padding-bottom: 120px;
+}
